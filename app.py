@@ -50,7 +50,8 @@ def get_response(predicted_class):
 
 
 def get_recommendations():
-    return random.sample([intent['tag']['patterns'] for intent in intents['intents']], random.randint(1, 3))
+    all_patterns = [pattern for intent in intents['intents'] for pattern in intent['patterns']]
+    return random.sample(all_patterns, random.randint(1, 3))
 
 
 app = Flask(__name__)
