@@ -1,0 +1,79 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "What's up", "Hey", "Greetings"],
+      "responses": ["Hello! How can I assist you with family policies today?", "Good to see you! What information do you need?", "Hi there! I'm here to help with family-related matters."],
+      "context_set": ""
+    },
+    {
+      "tag": "working hours",
+      "patterns": ["when are guts open", "hours of operation", "what are your hours"],
+      "responses": ["24/7"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a good day", "bye", "ciao", "see ya"],
+      "responses": ["I'm here whenever you need me! Take care!", "Goodbye! Reach out if you have more questions.", "Sad to see you go! Don't hesitate to return."],
+      "context_set": ""
+    },
+    {
+      "tag": "gender_equality",
+      "patterns": ["What is gender equality?", "Tell me about gender equality policies", "How do family policies support gender equality?", "Why is gender equality important?", "What resources are available for gender equality?"],
+      "responses": [
+        "Gender equality means ensuring equal rights, responsibilities, and opportunities for people of all genders. This involves dismantling barriers that prevent individuals from enjoying equal treatment in areas such as education, employment, and health. Would you like to learn more about specific policies or resources related to gender equality?",
+        "Gender equality is crucial for building a fair and just society. It enhances economic growth and promotes social well-being. Would you like details on programs supporting gender equality?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "anti_gbv",
+      "patterns": ["What are anti-GBV efforts?","what is GBV", "what is Gender based violence", "Tell me about anti-GBV policies", "How can I support anti-GBV initiatives?", "What resources are available for GBV prevention?", "What should I do if I see GBV?"],
+      "responses": [
+        "Anti-GBV (Gender-Based Violence) efforts include educational programs, legal advocacy, and support services for survivors. Many organizations work to raise awareness and provide safe spaces for victims. Would you like to know about specific organizations or resources in your area?",
+        "Preventing GBV involves community engagement and support networks. If you're interested, I can share how to get involved or find local resources."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "child_protection",
+      "patterns": ["What is child protection?", "Tell me about child protection laws", "How can I ensure child safety?", "What resources are available for child protection?", "What should I do if I suspect child abuse?"],
+      "responses": [
+        "Child protection encompasses policies and practices aimed at safeguarding children from abuse, neglect, and exploitation. It includes legal frameworks, intervention services, and educational initiatives. Would you like to hear more about specific laws or support services?",
+        "To ensure child safety, it’s vital to be informed about warning signs of abuse and available resources. I can provide more details on how to recognize and report concerns if you'd like."
+      ],
+      "context_set": ""
+    },
+    {
+  "tag": "family_support",
+  "patterns": [
+    "What family support services are available?",
+    "Tell me about resources for families",
+    "How can I find help for family issues?",
+    "What programs assist families in need?",
+    "What support is available for parents and children?"
+  ],
+  "responses": [
+    "There are numerous family support services available, including mental health counseling, financial assistance programs, parenting workshops, and family mediation services. These programs are designed to help families navigate challenges and improve their overall well-being. Would you like to know more about any specific type of support?",
+    "Support for families can include local community centers offering activities for children and parents, food banks, legal aid services, and crisis intervention hotlines. If you need assistance with a specific issue, I can help you find tailored resources in your area.",
+    "Many organizations provide specialized programs, such as parenting classes for new parents, support groups for single parents, and educational resources for child development. Would you like details on specific organizations or programs near you?",
+    "In addition to government resources, there are non-profit organizations focused on family welfare that offer services like domestic violence shelters, family counseling, and substance abuse support. If you're interested, I can provide you with contacts for these organizations."
+  ],
+  "context_set": ""
+},
+
+    {
+      "tag": "resources",
+      "patterns": ["Where can I find family policy resources?", "Best resources for gender equality", "How can I learn more about anti-GBV?", "Where can I find child protection information?", "Can you recommend family-oriented services?"],
+      "responses": [
+        "You can find family policy resources on government websites, local NGOs, and community organizations. These platforms often provide guides, training, and support services. If you want, I can help you locate specific organizations or websites.",
+        "For information on gender equality and family policies, I can suggest relevant books, websites, or online courses. Would you like recommendations?"
+      ],
+      "context_set": ""
+    }
+  ]
+}
+
+

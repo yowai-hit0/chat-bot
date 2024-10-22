@@ -1,0 +1,43 @@
+add help tag
+add more patterns and answers
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "What's up", "Hey", "Greetings"],
+      "responses": ["Hello! How can I assist you with family policies today?", "Good to see you! What information do you need?", "Hi there! I'm here to help with family-related matters."],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am leaving", "Have a good day", "bye", "ciao", "see ya"],
+      "responses": ["I'm here whenever you need me! Take care!", "Goodbye! Reach out if you have more questions.", "Sad to see you go! Don't hesitate to return."],
+      "context_set": ""
+    },
+    {
+      "tag": "gender_equality",
+      "patterns": ["What is gender equality?", "Tell me about gender equality policies", "How do family policies support gender equality?", "Why is gender equality important?", "What resources are available for gender equality?"],
+      "responses": ["Gender equality means ensuring equal rights, responsibilities, and opportunities for all genders. Policies often include educational programs and advocacy initiatives."],
+      "context_set": ""
+    },
+    {
+      "tag": "anti_gbv",
+      "patterns": ["What are anti-GBV efforts?", "Tell me about anti-GBV policies", "How can I support anti-GBV initiatives?", "What resources are available for GBV prevention?", "What should I do if I see GBV?"],
+      "responses": ["Anti-GBV efforts include prevention programs, support services for survivors, and legal advocacy. It's crucial to raise awareness and promote safe environments."],
+      "context_set": ""
+    },
+    {
+      "tag": "child_protection",
+      "patterns": ["What is child protection?", "Tell me about child protection laws", "How can I ensure child safety?", "What resources are available for child protection?", "What should I do if I suspect child abuse?"],
+      "responses": ["Child protection involves safeguarding children from harm and ensuring their well-being. Resources include hotlines, counseling services, and educational programs."],
+      "context_set": ""
+    },
+    {
+      "tag": "resources",
+      "patterns": ["Where can I find family policy resources?", "Best resources for gender equality", "How can I learn more about anti-GBV?", "Where can I find child protection information?", "Can you recommend family-oriented services?"],
+      "responses": ["You can visit government websites, NGOs focused on family issues, and community centers for valuable resources and support."],
+      "context_set": ""
+    }
+  ]
+}
